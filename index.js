@@ -46,6 +46,6 @@ inquirer
         //prompt couldn't be rendered in the current environment
     }
     else {
-        console.log("Error is catched");
+        console.log("Error is on it's way");
     }
 });
