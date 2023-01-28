@@ -25,19 +25,19 @@ inquirer
     // console.log(result.second_num);
     // console.log("Sum is:", result.first_num + result.second_num);
     if (result.Operator == 'multiply x') {
-        console.log('Your multiplication is:', result.first_num * result.second_num);
+        console.log('Your multiplication result is:', result.first_num * result.second_num);
     }
     else if (result.Operator == 'subtract -') {
-        console.log('Your subtraction is:', result.first_num - result.second_num);
+        console.log('Your subtraction result is:', result.first_num - result.second_num);
     }
     else if (result.Operator == 'add +') {
-        console.log('Your addition is:', result.first_num + result.second_num);
+        console.log('Your addition result is:', result.first_num + result.second_num);
     }
     else if (result.Operator == 'divide /') {
-        console.log('Your division is:', result.first_num / result.second_num);
+        console.log('Your division result is:', result.first_num / result.second_num);
     }
     else {
-        console.log('Your modulus is:', result.first_num % result.second_num);
+        console.log('Your modulus result is:', result.first_num % result.second_num);
     }
 })
     .catch((error) => {
