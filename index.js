@@ -20,10 +20,7 @@ inquirer
     }
 ])
     .then((result) => {
-    // console.log(result);
-    // console.log(result.first_num);
-    // console.log(result.second_num);
-    // console.log("Sum is:", result.first_num + result.second_num);
+ 
     if (result.Operator == 'multiply x') {
         console.log('Your multiplication result is:', result.first_num * result.second_num);
     }
